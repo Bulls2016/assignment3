@@ -13,7 +13,7 @@ public class MemberMapDAOTest extends TestCase {
 
 	
 	protected void setUp() throws Exception {
-		super.setUp();
+		super.setUp3();
 	}
 
 	//
@@ -21,6 +21,11 @@ public class MemberMapDAOTest extends TestCase {
         //
 	public void testAddMember() {
 		fail("Not yet implemented");
+	}
+
+	private void fail(String string) {
+		// TODO Auto-generated method stub
+		
 	}
 
 	//
