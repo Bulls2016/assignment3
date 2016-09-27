@@ -34,9 +34,9 @@ public class MemberTest {
 	
 	@Before
 	public void setUp() throws Exception {
-		mem1 = new Member("Asmita", "Singh", "12345", "asmita@gmail.com", 101);
-		mem2 = new Member("Prateek", "Narang", "54321", "prateek@gmail.com", 102);
-		mem3 = new Member("Krishanthi", "Wickram", "98765", "krishanthi@gmail.com", 103);
+		mem1 = new Member("navinder", "Singh", "12345", "navinder@gmail.com", 101);
+		mem2 = new Member("jagroop", "chhina", "54321", "roop@gmail.com", 102);
+		mem3 = new Member("teri ch", "mera", "98765", "terichmera@gmail.com", 103);
 
 		book[0] = bookDAO.addBook("author1", "title1", "callNo1");
 		book[1] = bookDAO.addBook("author2", "title2", "callNo2");

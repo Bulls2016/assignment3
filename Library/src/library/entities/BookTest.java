@@ -12,7 +12,7 @@ import org.junit.Test;
 
 public class BookTest {
 
-	Book book = new Book("Prateek Narang", "Welcome to JUnit Testing.", "IT678", 7895012);
+	Book book = new Book("navinder", "Welcome to JUnit Testing.", "IT678", 7895012);
 
 	@Test
 	public void testBook() {

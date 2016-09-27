@@ -24,10 +24,10 @@ public class LoanTest {
 
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
-		Book b1= new Book("Krishanthi", "Welcome to JUnit testing", "123456", 9999);
-		Book b2= new Book("Krishanthi", "Welcome to JUnit testing", "123456", 00023);
+		Book b1= new Book("navinder", "Welcome to JUnit testing", "123456", 9999);
+		Book b2= new Book("navinder", "Welcome to JUnit testing", "123456", 00023);
 
-		Member m1= new Member("Krishanthi","Wickramasooriya","123456","krishanthi@gmail.com",1234);
+		Member m1= new Member("navinder","atwal","123456","navinder94@gmail.com",1234);
 		//Date d1 = (new GregorianCalendar(2016, 9, 15)).getTime();
 		//Date d2= new Date();
 		Calendar returnDate = Calendar.getInstance();
